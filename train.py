@@ -31,6 +31,6 @@ model.fit(x_train, y_train,
         verbose=2, 
         shuffle = True,
         callbacks=[early_stopping,model_cp], 
-        validation_split=20.0)
+        validation_split=0.2)
 
         
